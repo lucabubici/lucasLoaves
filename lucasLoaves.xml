@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lucasLoaves.xsl"?>
+<!DOCTYPE lucasLoaves[
+    <!ELEMENT lucasLoaves (product*)>
+    <!ELEMENT product (productName, price, description, productImg, productSound)>
+    <!ELEMENT productName (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT productImg (#PCDATA)>
+    <!ELEMENT productSound (#PCDATA)>
+]>
+    
+<lucasLoaves>
+    <product>
+        <productName>Sourdough White</productName>
+        <price>$7.00</price>
+        <description>Our standard sourdough.</description>
+        <productImg>sourdoughWhite.gif</productImg>
+        <productSound>sourdoughWhite.mp3</productSound>
+    </product>
+    <product>
+        <productName>Sourdough Rye</productName>
+        <price>$8.00</price>
+        <description>Sourdough created with 50% rye flour.</description>
+        <productImg>sourdoughRye.gif</productImg>
+        <productSound>sourdoughRye.mp3</productSound>
+    </product>
+    <product>
+        <productName>Sourdough Spelt</productName>
+        <price>$9.00</price>
+        <description>Sourdough created with 100% spelt flour.</description>
+        <productImg>sourdoughSpelt.gif</productImg>
+        <productSound>sourdoughSpelt.mp3</productSound>
+    </product>
+    <product>
+        <productName>Sourdough Seeded</productName>
+        <price>$9.50</price>
+        <description>Sourdough including a mixture of yummy seeds.</description>
+        <productImg>sourdoughSeeded.gif</productImg>
+        <productSound>sourdoughSeeded.mp3</productSound>
+    </product>
+</lucasLoaves>
